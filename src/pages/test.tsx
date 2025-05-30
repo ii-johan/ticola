@@ -3,13 +3,6 @@ import { useRouter } from 'next/router'; // Import useRouter
 import styles from '../styles/Test.module.css';
 import { questions } from '../data/colaData';
 
-interface Question {
-  id: number;
-  statement: string;
-  typeInfluence: string;
-  category: 'MBTI' | 'COLA';
-}
-
 const MBTICOLATest: React.FC = () => {
   const router = useRouter(); // Initialize useRouter
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
