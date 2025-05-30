@@ -4,16 +4,16 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 20px;
-  background-color: #fefefe;
+  padding: 10px;
+  background-color: #000000;
   font-family: 'Arial', sans-serif;
-  color: #4d4a9c;
+  color: #9b98de;
 }
 
 .title {
-  color: #4f77a1;
-  margin-bottom: 15px;
-  font-size: 2.4em;
+  color: #88bef7;
+  margin-bottom: 5px;
+  font-size: 1.5em;
   text-align: center;
   font-weight: bold;
 }
@@ -21,94 +21,169 @@
 .progressBarContainer {
   width: 80%;
   max-width: 600px;
-  background-color: #bed0fa;
+  background-color: #c4d3ff;
   border-radius: 10px;
   height: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   overflow: hidden;
 }
 
 .progressBar {
   height: 100%;
-  background-color: #6f6ad0;
+  background-color: #7a75d0;
   border-radius: 10px;
   transition: width 0.3s ease-in-out;
 }
 
 .questionNumber {
   font-size: 1.1em;
-  margin-bottom: 20px;
-  color: #666;
+  margin-bottom: 0px;
+  color: #d2e3f9;
 }
 
 .questionBox {
-  background-color: #e6f9ff;
+  background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  margin: 20px 0;
+  margin: 10px 0;
   width: 80%;
   max-width: 600px;
-  min-height: 400px; /* Double height */
+  min-height: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .questionStatement {
-  font-size: 1.6em;
-  margin-bottom: 40px;
+  font-size: 1.5em;
+  margin-bottom: 5px;
   line-height: 1.6;
-  color: #444;
+  color: #000000;
   flex-grow: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 1px;
 }
 
 .options {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+  align-items: center;
+  gap: 4px;
   width: 100%;
+  margin-top: 20px;
 }
 
 .button {
-  background-color: #007bff;
   color: rgb(253, 253, 253);
   border: none;
-  border-radius: 6px;
-  padding: 10px 15px;
-  font-size: 0.9em;
+  padding: 7px 30px;
+  font-size: 1.1em;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  min-width: 70px;
-  flex-basis: auto;
+  width: 70%;
+  max-width: 400px;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
-  background-color: #0056b3;
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
 
 .button:active {
-  background-color: #004085;
   transform: translateY(0);
 }
 
-/* Specific button colors */
-.buttonYes\+\+ { background-color: #3d9940; }
-.buttonYes\+ { background-color: #8bc34a; }
-.buttonYes { background-color: #CDDC39; }
-.buttonMid { background-color: #b4af9e; color: #000000; }
-.buttonNo { background-color: #ff9800; }
-.buttonNo\+ { background-color: #FE5722; }
-.buttonNo\+\+ { background-color: #c44b42; }
+/* --- 각 버튼 색상 정의 시작 --- */
+/* Yes++ (매우 동의) */
+.buttonYes\+\+ {
+  background-color: #409643; /* 진한 녹색 */
+}
+.buttonYes\+\+:hover {
+  background-color: #49a64e;
+}
+.buttonYes\+\+:active {
+  background-color: #3d8c3f;
+}
 
-/* Result Specific Styles */
+/* Yes+ (꽤 동의) */
+.buttonYes\+ {
+  background-color: #7fb146; /* 연두색 */
+}
+.buttonYes\+:hover {
+  background-color: #7cb342;
+}
+.buttonYes\+:active {
+  background-color: #689f38;
+}
+
+/* Yes (동의) */
+.buttonYes {
+  background-color: #bde06a; /* 밝은 녹색/노랑 */
+  color: #333; /* 텍스트 색상 변경 (잘 보이도록) */
+}
+.buttonYes:hover {
+  background-color: #c0ca33;
+}
+.buttonYes:active {
+  background-color: #afb42b;
+}
+
+/* Mid (중립) */
+.buttonMid {
+  background-color: #9E9E9E; /* 회색 */
+  color: #333; /* 텍스트 색상 변경 */
+}
+.buttonMid:hover {
+  background-color: #757575;
+}
+.buttonMid:active {
+  background-color: #616161;
+}
+
+/* No (동의하지 않음) */
+.buttonNo {
+  background-color: #f1bd21; /* 주황색 */
+  color: #333; /* 텍스트 색상 변경 */
+}
+.buttonNo:hover {
+  background-color: #ffb300;
+}
+.buttonNo:active {
+  background-color: #ffa000;
+}
+
+/* No+ (꽤 동의하지 않음) */
+.buttonNo\+ {
+  background-color: #dfa719; /* 붉은 주황색 */
+}
+.buttonNo\+:hover {
+  background-color: #e64a19;
+}
+.buttonNo\+:active {
+  background-color: #d84315;
+}
+
+/* No++ (매우 동의하지 않음) */
+.buttonNo\+\+ {
+  background-color: #c78118; /* 진한 빨간색 */
+}
+.buttonNo\+\+:hover {
+  background-color: #d32f2f;
+}
+.buttonNo\+\+:active {
+  background-color: #c62828;
+}
+/* --- 각 버튼 색상 정의 끝 --- */
+
+
+/* Result Specific Styles (이 부분은 변경 없음) */
 .topResultBox {
   background-color: #ffffff;
   border-radius: 15px;
@@ -123,7 +198,7 @@
 .finalType {
   font-size: 2.5em;
   font-weight: bold;
-  color: #17a2b8; /* A distinct color for the final type */
+  color: #17a2b8;
   margin: 0;
 }
 
@@ -153,7 +228,7 @@
 
 .typeLabel {
   font-weight: bold;
-  min-width: 25px; /* Give a fixed width to labels for alignment */
+  min-width: 25px;
   text-align: right;
   font-size: 1.1em;
 }
@@ -161,20 +236,20 @@
 .percentageBarContainer {
   flex-grow: 1;
   display: flex;
-  height: 25px; /* Height of the bar */
+  height: 25px;
   border-radius: 5px;
   overflow: hidden;
-  background-color: #e9ecef; /* Neutral background for the bar container */
+  background-color: #e9ecef;
 }
 
 .percentageBarLeft {
-  background-color: #007bff; /* Color for the left side (e.g., E, S, T, J / C, O, L, A) */
+  background-color: #007bff;
   height: 100%;
   transition: width 0.5s ease-in-out;
 }
 
 .percentageBarRight {
-  background-color: #6c757d; /* Color for the right side (e.g., I, N, F, P / D, U, M, Y) */
+  background-color: #6c757d;
   height: 100%;
   transition: width 0.5s ease-in-out;
 }
@@ -182,7 +257,7 @@
 .percentageText {
   font-size: 0.95em;
   font-weight: bold;
-  min-width: 80px; /* Adjust as needed for percentage display */
+  min-width: 80px;
   text-align: left;
 }
 
