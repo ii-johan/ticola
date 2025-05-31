@@ -9,7 +9,7 @@ export const questions = [
   },
   {
     id: 2,
-    statement: '생각이 정리된 후에 대화를 시작하는 편이다.',
+    statement: '생각이 정리된 후에 대화를 시작한다.',
     typeInfluence: 'I', // 여기에 강세 방향 기입 (예: 'I')
     category: 'MBTI'
   },
@@ -17,13 +17,13 @@ export const questions = [
   // S (감각) / N (직관)
   {
     id: 3,
-    statement: '막연한 추측보다 구체적이고 명확한 설명을 좋아한다.',
+    statement: '막연한 예상보다 구체적인 증거를 요구한다.',
     typeInfluence: 'S', // 여기에 강세 방향 기입 (예: 'S')
     category: 'MBTI'
   },
   {
     id: 4,
-    statement: '미래의 가능성과 숨겨진 의미를 파악하는 것을 즐긴다.',
+    statement: '미래의 가능성과 숨겨진 의미를 파악하는것을 즐긴다.',
     typeInfluence: 'N', // 여기에 강세 방향 기입 (예: 'N')
     category: 'MBTI'
   },
@@ -31,13 +31,13 @@ export const questions = [
   // T (사고) / F (감정)
   {
     id: 5,
-    statement: '판단은 논리적 근거에 따라 이루어져야 한한다.',
+    statement: '판단은 논리적 근거에 따라 이뤄져야 한다.',
     typeInfluence: 'T', // 여기에 강세 방향 기입 (예: 'T')
     category: 'MBTI'
   },
   {
     id: 6,
-    statement: '사실 여부보다 상대의 입장이 더 중요할 수 있다.',
+    statement: '사실 여부보다 상대 입장이 더 중요할수 있다.',
     typeInfluence: 'F', // 여기에 강세 방향 기입 (예: 'F')
     category: 'MBTI'
   },
@@ -45,13 +45,13 @@ export const questions = [
   // J (판단) / P (인식)
   {
     id: 7,
-    statement: '계획을 세우고 체계적으로 일을 처리하는 것을 선호한다.',
+    statement: '계획을 세우고 체계적으로 일을 처리한다.',
     typeInfluence: 'J', // 여기에 강세 방향 기입 (예: 'J')
     category: 'MBTI'
   },
   {
     id: 8,
-    statement: '자유롭고 유연하게 상황에 맞춰 즉흥적으로 대처한다.',
+    statement: '상황에 따라 유연하게 즉흥적으로 잘 대처한다.',
     typeInfluence: 'P', // 여기에 강세 방향 기입 (예: 'P')
     category: 'MBTI'
   },
@@ -60,13 +60,13 @@ export const questions = [
   // C (Committed Charisma) / D (Dominant Drive)
   {
     id: 9,
-    statement: '헌신적으로 다른 사람들을 이끌어가는 리더십이 있다.',
+    statement: '헌신적으로 사람들을 이끌어가는 리더십이 있다.',
     typeInfluence: 'C', // 여기에 강세 방향 기입 (예: 'C')
     category: 'COLA'
   },
   {
     id: 10,
-    statement: '의견을 강력하게 주장하고, 거침없이 일을 추진한다.',
+    statement: '의견을 강하게 주장하고, 일을 거침없이 추진한다.',
     typeInfluence: 'D', // 여기에 강세 방향 기입 (예: 'D')
     category: 'COLA'
   },
@@ -74,13 +74,13 @@ export const questions = [
   // O (Offbeat Operator) / U (Unfunny Undertone)
   {
     id: 11,
-    statement: '예상치 못한 공격이나 비판에 능청스럽고 재치있게 받아친다.',
+    statement: '공격이나 비판에 능청스럽게 잘 받아친다.',
     typeInfluence: 'O', // 여기에 강세 방향 기입 (예: 'O')
     category: 'COLA'
   },
   {
     id: 12,
-    statement: '서운한 말을 들으면 그 표정이 얼굴에 다 드러난다.',
+    statement: '불쾌하면 그 표정이 얼굴에 다 드러난다.',
     typeInfluence: 'U', // 여기에 강세 방향 기입 (예: 'U')
     category: 'COLA'
   },
@@ -88,13 +88,13 @@ export const questions = [
   // L (Lively Linguist) / M (Muted Mind)
   {
     id: 13,
-    statement: '사람들과 티키타카가 잘 통하고, 대화를 유쾌하게 이끌어간다.',
+    statement: '대화할 때 티키타카를 잘한다.',
     typeInfluence: 'L', // 여기에 강세 방향 기입 (예: 'L')
     category: 'COLA'
   },
   {
     id: 14,
-    statement: '말수가 적고, 생각이나 감정을 겉으로 잘 드러내지 못한다.',
+    statement: '생각이나 감정을 겉으로 잘 드러내지 못한다.',
     typeInfluence: 'M', // 여기에 강세 방향 기입 (예: 'M')
     category: 'COLA'
   },
@@ -102,13 +102,13 @@ export const questions = [
   // A (Alluring Attitude) / Y (Yawning Yawn)
   {
     id: 15,
-    statement: '어딜 가든 사람들의 시선을 사로잡는 매력적인 아우라를 풍긴다.',
+    statement: '나는 말과 행동이 시끄러운 편이 아니다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
   {
     id: 16,
-    statement: '사람들 속에서 존재감이 없고 조용히 앉아있는 편이다.',
+    statement: '사람과 만날때 부끄럽고 낯가림이 많다.',
     typeInfluence: 'Y', // 여기에 강세 방향 기입 (예: 'Y')
     category: 'COLA'
   },
@@ -144,7 +144,7 @@ export const questions = [
   // T (사고) / F (감정)
   {
     id: 21,
-    statement: '결정은 최대한 이성적으로 이루어져야 한다.',
+    statement: '일처리는 최대한 이성적으로 이루어져야 한다.',
     typeInfluence: 'T', // 여기에 강세 방향 기입 (예: 'T')
     category: 'MBTI'
   },
@@ -164,7 +164,7 @@ export const questions = [
   },
   {
     id: 24,
-    statement: '마감 시한에 쫗겨 부랴부랴 일을 마무리 한다.',
+    statement: '마감 시한에 쫓겨 부랴부랴 일을 마무리 한다.',
     typeInfluence: 'P', // 여기에 강세 방향 기입 (예: 'P')
     category: 'MBTI'
   },
@@ -179,7 +179,7 @@ export const questions = [
   },
   {
     id: 26,
-    statement: '강한 주장으로 사람들을 잘 설득시킨다.',
+    statement: '강력한 주장을 펼쳐 사람들을 잘 굴복시킨다.',
     typeInfluence: 'D', // 여기에 강세 방향 기입 (예: 'D')
     category: 'COLA'
   },
@@ -187,13 +187,13 @@ export const questions = [
   // O (Offbeat Operator) / U (Unfunny Undertone)
   {
     id: 27,
-    statement: '나 자신을 농담 대상으로 삼아도 유쾌하게 받아들인다.',
+    statement: '나를 농담대상으로 삼아도 유쾌하게 받아들인다.',
     typeInfluence: 'O', // 여기에 강세 방향 기입 (예: 'O')
     category: 'COLA'
   },
   {
     id: 28,
-    statement: '사소한 잘못에도 스스로에게 실망하는 편이다.',
+    statement: '사소한 잘못에도 스스로에게 실망을 잘한다.',
     typeInfluence: 'U', // 여기에 강세 방향 기입 (예: 'U')
     category: 'COLA'
   },
@@ -201,13 +201,13 @@ export const questions = [
   // L (Lively Linguist) / M (Muted Mind)
   {
     id: 29,
-    statement: '기쁘거나 슬플 때 그 감정을 바로 말로 표현한다.',
+    statement: '좋은일이 있으면 그 감정이 즉각 튀어나온다.',
     typeInfluence: 'L', // 여기에 강세 방향 기입 (예: 'L')
     category: 'COLA'
   },
   {
     id: 30,
-    statement: '상대가 갑자기 질문하면 말이 자주 막힌다.',
+    statement: '상대가 갑자기 질문하면 말이 턱 막힌다.',
     typeInfluence: 'M', // 여기에 강세 방향 기입 (예: 'M')
     category: 'COLA'
   },
@@ -215,7 +215,7 @@ export const questions = [
   // A (Alluring Attitude) / Y (Yawning Yawn)
   {
     id: 31,
-    statement: '누군가가 나를 부러워하거나 동경하는 시선을 느낀다.',
+    statement: '노래, 연설 등을 잘해서 동경의 시선을 받아본 적이 있다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
@@ -235,7 +235,7 @@ export const questions = [
   },
   {
     id: 34,
-    statement: '바깥 활동보다 내적인 집중에 몰입하는게 좋다.',
+    statement: '외부 활동보다 내적 집중의 시간이 더 즐겁다.',
     typeInfluence: 'I', // 여기에 강세 방향 기입 (예: 'I')
     category: 'MBTI'
   },
@@ -271,13 +271,13 @@ export const questions = [
   // J (판단) / P (인식)
   {
     id: 39,
-    statement: '앞으로의 목표와 계획을 세우느라 시간가는 줄 모른다.',
+    statement: '계획표를 작성하는 일이 익숙하다.',
     typeInfluence: 'J', // 여기에 강세 방향 기입 (예: 'J')
     category: 'MBTI'
   },
   {
     id: 40,
-    statement: '여행일정이 갑자기 바뀌어도 즐겁게 느껴진다.',
+    statement: '여행일정이 갑자기 바뀌어도 즐겁다.',
     typeInfluence: 'P', // 여기에 강세 방향 기입 (예: 'P')
     category: 'MBTI'
   },
@@ -286,13 +286,13 @@ export const questions = [
   // C (Committed Charisma) / D (Dominant Drive)
   {
     id: 41,
-    statement: '갈등이 생기면 피하기보다 조정하거나 주도하려 한다.',
+    statement: '갈등이 생기면 피하기보다 중재하려 한다.',
     typeInfluence: 'C', // 여기에 강세 방향 기입 (예: 'C')
     category: 'COLA'
   },
   {
     id: 42,
-    statement: '사람들 앞에서 말할 때 흥분과 기대가 넘친다.',
+    statement: '내 생각대로 따라오도록 사람들을 선동한 적이 있다.',
     typeInfluence: 'D', // 여기에 강세 방향 기입 (예: 'D')
     category: 'COLA'
   },
@@ -314,13 +314,13 @@ export const questions = [
   // L (Lively Linguist) / M (Muted Mind)
   {
     id: 45,
-    statement: '내가 말을 걸면 상대도 잘 받아주는 편이다.',
+    statement: '내가 말을 걸면 상대도 호의로 받아주는 편이다.',
     typeInfluence: 'L', // 여기에 강세 방향 기입 (예: 'L')
     category: 'COLA'
   },
   {
     id: 46,
-    statement: '속마음을 쉽게 표현하지 못해 말이 자주 끊긴다.',
+    statement: '속마음을 표현하지 못해 대화가 자주 끊긴다.',
     typeInfluence: 'M', // 여기에 강세 방향 기입 (예: 'M')
     category: 'COLA'
   },
@@ -328,13 +328,13 @@ export const questions = [
   // A (Alluring Attitude) / Y (Yawning Yawn)
   {
     id: 47,
-    statement: '나는 유행에 뒤쳐지지 않는 편이다.',
+    statement: '많은 사람을 상대에도 전혀 위축되지 않는다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
   {
     id: 48,
-    statement: '모임에서 내가 없어도 전혀 티 나지 않을 것 같다.',
+    statement: '나에게는 주책스러운 면이 있다.',
     typeInfluence: 'Y', // 여기에 강세 방향 기입 (예: 'Y')
     category: 'COLA'
   },
@@ -405,7 +405,7 @@ export const questions = [
   },
   {
     id: 58,
-    statement: '어려운 상황이 오면 슬쩍 빠지는 편이다.',
+    statement: '사람들의 실수를 지적해서 즉각 고쳐준다.',
     typeInfluence: 'D', // 여기에 강세 방향 기입 (예: 'D')
     category: 'COLA'
   },
@@ -413,13 +413,13 @@ export const questions = [
   // O (Offbeat Operator) / U (Unfunny Undertone)
   {
     id: 59,
-    statement: '내 의견이 틀렸다는걸 인정하는데 어려움이 없다.',
+    statement: '내 약점을 드러내는 일이 그다지 창피하지 않다.',
     typeInfluence: 'O', // 여기에 강세 방향 기입 (예: 'O')
     category: 'COLA'
   },
   {
     id: 60,
-    statement: '남들이 내 실수를 지적하면 민감하게 반응한다.',
+    statement: '남들이 내 잘못을 지적하면 민감하게 반응한다.',
     typeInfluence: 'U', // 여기에 강세 방향 기입 (예: 'U')
     category: 'COLA'
   },
@@ -433,7 +433,7 @@ export const questions = [
   },
   {
     id: 62,
-    statement: '말이 끊길까봐 애쓸 때가 많다.',
+    statement: '대화중 말이 끊길까봐 아무 질문이나 한다.',
     typeInfluence: 'M', // 여기에 강세 방향 기입 (예: 'M')
     category: 'COLA'
   },
@@ -441,13 +441,13 @@ export const questions = [
   // A (Alluring Attitude) / Y (Yawning Yawn)
   {
     id: 63,
-    statement: '나에게는 사회적 성취를 이루었다는 자심감이 있다.',
+    statement: '많은 이성에 둘러싸여 있어도 전혀 부끄럽지 않다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
   {
     id: 64,
-    statement: '동창모임에 그다지 가고싶지 않다.',
+    statement: '나는 연극적인 말투를 자주 구사한다.',
     typeInfluence: 'Y', // 여기에 강세 방향 기입 (예: 'Y')
     category: 'COLA'
   },
@@ -475,7 +475,7 @@ export const questions = [
   },
   {
     id: 68,
-    statement: '향후 발생할 일에 대한 예측이 뛰어난 편이다.',
+    statement: '나는 미래에 있을 일에 대한 예측이 정확하다.',
     typeInfluence: 'N', // 여기에 강세 방향 기입 (예: 'N')
     category: 'MBTI'
   },
@@ -503,7 +503,7 @@ export const questions = [
   },
   {
     id: 72,
-    statement: '진행되는 흐름을 보고 상황에 따라 일을 결정한다.',
+    statement: '진행되는 흐름을 보며 그때그때 일을 결정한다.',
     typeInfluence: 'P', // 여기에 강세 방향 기입 (예: 'P')
     category: 'MBTI'
   },
@@ -518,7 +518,7 @@ export const questions = [
   },
   {
     id: 74,
-    statement: '사람들 앞에서 지시를 내리는 상황이 신바람이 난다.',
+    statement: '높은 위치에서 지시를 내리는 상황이 신난다.',
     typeInfluence: 'D', // 여기에 강세 방향 기입 (예: 'D')
     category: 'COLA'
   },
@@ -526,7 +526,7 @@ export const questions = [
   // O (Offbeat Operator) / U (Unfunny Undertone)
   {
     id: 75,
-    statement: '생각이 다르면 피하기보다 적극적으로 풀려고 한다.',
+    statement: '갈등이 생기면 피하기보다 적극적으로 풀려고 한다.',
     typeInfluence: 'O', // 여기에 강세 방향 기입 (예: 'O')
     category: 'COLA'
   },
@@ -554,13 +554,13 @@ export const questions = [
   // A (Alluring Attitude) / Y (Yawning Yawn)
   {
     id: 79,
-    statement: 'SNS나 사진 속 내 모습에 만족한다.',
+    statement: '나의 말과 행동에는 전혀 꾸밈이 없다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
   {
     id: 80,
-    statement: '사람들의 태도에 위축되어 기분을 맞춰준다.',
+    statement: '분위기에 위축되어 자주 눈치를 살핀다.',
     typeInfluence: 'Y', // 여기에 강세 방향 기입 (예: 'Y')
     category: 'COLA'
   },
@@ -596,7 +596,7 @@ export const questions = [
   // T (사고) / F (감정)
   {
     id: 85,
-    statement: '지식과 정보의 습득에 관심이 많다.',
+    statement: '새로운 지식과 정보의 습득에 관심이 많다.',
     typeInfluence: 'T', // 여기에 강세 방향 기입 (예: 'T')
     category: 'MBTI'
   },
@@ -625,13 +625,13 @@ export const questions = [
   // C (Committed Charisma) / D (Dominant Drive)
   {
     id: 89,
-    statement: '문제가 생기면 책임지고 해결하려 한다.',
+    statement: '문제가 생기면 내가 좀 손해보더라도 책임지고 해결한다.',
     typeInfluence: 'C', // 여기에 강세 방향 기입 (예: 'C')
     category: 'COLA'
   },
   {
     id: 90,
-    statement: '누가 나에게 조언을 하면 기분이 상한다.',
+    statement: '누가 나에게 조언을 하면 기분이 불쾌하다.',
     typeInfluence: 'D', // 여기에 강세 방향 기입 (예: 'D')
     category: 'COLA'
   },
@@ -639,7 +639,7 @@ export const questions = [
   // O (Offbeat Operator) / U (Unfunny Undertone)
   {
     id: 91,
-    statement: '화난 감정을 얼굴에 잘 드러내지 않으려 애쓴다.',
+    statement: '화난 감정을 얼굴에 드러내지 않으려 애쓴다.',
     typeInfluence: 'O', // 여기에 강세 방향 기입 (예: 'O')
     category: 'COLA'
   },
@@ -659,7 +659,7 @@ export const questions = [
   },
   {
     id: 94,
-    statement: '말하는 내 표정이나 말투가 부자연스럽게 느껴진다.',
+    statement: '대화중 내가 말하는 비율이 30% 이내로 적다.',
     typeInfluence: 'M', // 여기에 강세 방향 기입 (예: 'M')
     category: 'COLA'
   },
@@ -667,13 +667,13 @@ export const questions = [
   // A (Alluring Attitude) / Y (Yawning Yawn)
   {
     id: 95,
-    statement: '사회적 상황에서 긴장하지 않고 당당하게 행동한다.',
+    statement: '나는 센스있는 농담을 아주 잘한다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
   {
     id: 96,
-    statement: '말하는 동안 사람들의 반응에 엄청 신경이 쓰인다.',
+    statement: '여러명이 대화하고 있으면 잘 끼지 못한다.',
     typeInfluence: 'Y', // 여기에 강세 방향 기입 (예: 'Y')
     category: 'COLA'
   },
@@ -723,13 +723,13 @@ export const questions = [
   // J (판단) / P (인식)
   {
     id: 103,
-    statement: '원하는 일이 중간에서 지지부진하면 엄청 스트레스를 받는다.',
+    statement: '계획이 중간에 지지부진하면 스트레스를 받는다.',
     typeInfluence: 'J', // 여기에 강세 방향 기입 (예: 'J')
     category: 'MBTI'
   },
   {
     id: 104,
-    statement: '오늘의 걱정만 붙들고 내일은 신경쓰지 않는다.',
+    statement: '오늘에 집중하고 내일은 걱정하지 않는다.',
     typeInfluence: 'P', // 여기에 강세 방향 기입 (예: 'P')
     category: 'MBTI'
   },
@@ -752,13 +752,13 @@ export const questions = [
   // O (Offbeat Operator) / U (Unfunny Undertone)
   {
     id: 107,
-    statement: '힘든 일이 있어도 낙천적으로 생각하려 한다.',
+    statement: '힘든 일이 있어도 낙천적으로 대처한다.',
     typeInfluence: 'O', // 여기에 강세 방향 기입 (예: 'O')
     category: 'COLA'
   },
   {
     id: 108,
-    statement: '내 태도 때문에 무섭다거나 편하지 않다는 말을 들어봤다.',
+    statement: '내 태도가 무섭거나 불편하다는 말을 들어봤다.',
     typeInfluence: 'U', // 여기에 강세 방향 기입 (예: 'U')
     category: 'COLA'
   },
@@ -766,13 +766,13 @@ export const questions = [
   // L (Lively Linguist) / M (Muted Mind)
   {
     id: 109,
-    statement: '이야기를 주고받다보면 센스있는 농담이 마구 생각난다.',
+    statement: '내가 말하면 사람들이 공감의 터치를 많이 한다.',
     typeInfluence: 'L', // 여기에 강세 방향 기입 (예: 'L')
     category: 'COLA'
   },
   {
     id: 110,
-    statement: '내가 말하면 사람들이 딴 생각을 하고있다.',
+    statement: '내가 설명할때 상대가 딴 생각을 자주 한다.',
     typeInfluence: 'M', // 여기에 강세 방향 기입 (예: 'M')
     category: 'COLA'
   },
@@ -780,13 +780,13 @@ export const questions = [
   // A (Alluring Attitude) / Y (Yawning Yawn)
   {
     id: 111,
-    statement: '눈 앞에 이성이 백명 서있어도 당당하게 지나간다.',
+    statement: '눈앞에 이성이 백명이 서있어도 당당하게 지나간다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
   {
     id: 112,
-    statement: '말하고 있는 상대의 눈을 똑바로 바라보기가 어렵다.',
+    statement: '말하고 있는 상대의 눈을 바라보기가 어렵다.',
     typeInfluence: 'Y', // 여기에 강세 방향 기입 (예: 'Y')
     category: 'COLA'
   },
