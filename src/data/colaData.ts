@@ -399,7 +399,7 @@ export const questions = [
   // C (Commander) / D (Deferrer)
   {
     id: 57,
-    statement: '내 말에 모두두 자연스럽게 따른다.',
+    statement: '내 말에 모두 자연스럽게 따른다.',
     typeInfluence: 'C', // 여기에 강세 방향 기입 (예: 'C')
     category: 'COLA'
   },
@@ -554,7 +554,7 @@ export const questions = [
   // A (Altruist) / Y (Yearner)
   {
     id: 79,
-    statement: '고민상담을 원하는 사람들이이 많다.',
+    statement: '고민상담을 원하는 사람들이 많다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
@@ -582,7 +582,7 @@ export const questions = [
   // S (감각) / N (직관)
   {
     id: 83,
-    statement: '사람들의 말을 잘잘 믿는 편이다.',
+    statement: '사람들의 말을 잘 믿는 편이다.',
     typeInfluence: 'S', // 여기에 강세 방향 기입 (예: 'S')
     category: 'MBTI'
   },
@@ -681,7 +681,7 @@ export const questions = [
   // E (외향) / I (내향)
   {
     id: 97,
-    statement: '오늘은은 어떤 일이 벌어질까 신난다.',
+    statement: '오늘은 어떤 일이 벌어질까 신난다.',
     typeInfluence: 'E', // 여기에 강세 방향 기입 (예: 'E')
     category: 'MBTI'
   },
