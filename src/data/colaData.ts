@@ -122,7 +122,7 @@ export const questions = [
   },
   {
     id: 18,
-    statement: '휴일을 집에서 보내게 편하다.',
+    statement: '휴일에 집에서 쉬는게 더 즐겁다.',
     typeInfluence: 'I', // 여기에 강세 방향 기입 (예: 'I')
     category: 'MBTI'
   },
@@ -306,7 +306,7 @@ export const questions = [
   },
   {
     id: 44,
-    statement: '나에게는는 쉽게 장난을 치지 못한다.',
+    statement: '나에게 쉽게 장난치지 못한다.',
     typeInfluence: 'U', // 여기에 강세 방향 기입 (예: 'U')
     category: 'COLA'
   },
@@ -399,7 +399,7 @@ export const questions = [
   // C (Commander) / D (Deferrer)
   {
     id: 57,
-    statement: '내 말에 모두 자연스럽게 따른다.',
+    statement: '나를 편하게 따르는 사람들이 많다.',
     typeInfluence: 'C', // 여기에 강세 방향 기입 (예: 'C')
     category: 'COLA'
   },
@@ -546,7 +546,7 @@ export const questions = [
   },
   {
     id: 78,
-    statement: '말하는 주제가 자꾸 엇갈려 충돌한다.',
+    statement: '대화주제가 자꾸 엇갈리고 충돌한다.',
     typeInfluence: 'M', // 여기에 강세 방향 기입 (예: 'M')
     category: 'COLA'
   },
@@ -554,7 +554,7 @@ export const questions = [
   // A (Altruist) / Y (Yearner)
   {
     id: 79,
-    statement: '고민상담을 원하는 사람들이 많다.',
+    statement: '고민 상담을 원하는 사람들이 많다.',
     typeInfluence: 'A', // 여기에 강세 방향 기입 (예: 'A')
     category: 'COLA'
   },
